@@ -26,17 +26,6 @@ dd {
     --hover-colorTransparent:rgba(110, 110, 121, 0.351);
   }
 
-/* .container{ */
-    /* max-width: 2440px; */
-    /* padding: 0 135px; */
-    /* margin: 0 auto; */
-  /* } */
-  
-  /* .container.logo a img{ */
-    /* max-width: 109px; */
-    /* height: 10px; */
-  /* }  */
-
   button{
     border: transparent;
     border-radius: 10px;
@@ -47,12 +36,12 @@ dd {
     justify-content: center;
     margin-top: 15px;
     margin-left: 50px;
-    /* align-content: center; */
   }
+
   button:hover{
     background-color:var(--hover-colorTransparent) ;
-    
   }
+
   p{
     margin-top: 5px;
   }
@@ -69,19 +58,22 @@ list-style: none;
 .navigation{
   display: flex;
 }
+
 .nav-list{
   display: flex;
   gap: 10px;
 } 
-.logo a img{
 
+.logo a img{
   width: 50px;
 }
+
 .navigation{
   border: solid;
   padding-top:5px ;
   background-color: var(--bg-color);
 }
+
 .icons-bf{
   padding: 15px 5px;
   color: var(--text-color);
@@ -97,8 +89,7 @@ list-style: none;
   margin-left: 5px;
 }
 .x:hover{
-  background-color:var(--hover-colorTransparent) ;
-  
+  background-color:var(--hover-colorTransparent) ; 
 }
 
 .minus{
