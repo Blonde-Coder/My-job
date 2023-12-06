@@ -21,7 +21,110 @@ dd {
 
 :root{
     --text-color:#524e4ef0;
+    --bg-color:rgb(4, 4, 28);
+    --hover-color:rgb(88, 88, 91);
+    --hover-colorTransparent:rgba(110, 110, 121, 0.351);
+  }
+
+/* .container{ */
+    /* max-width: 2440px; */
+    /* padding: 0 135px; */
+    /* margin: 0 auto; */
+  /* } */
+  
+  /* .container.logo a img{ */
+    /* max-width: 109px; */
+    /* height: 10px; */
+  /* }  */
+
+  button{
+    border: transparent;
+    border-radius: 10px;
+    width: 550px;
+    height: 30px;
+    background-color:var(--text-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 50px;
+    /* align-content: center; */
+  }
+  button:hover{
+    background-color:var(--hover-colorTransparent) ;
     
-    
-    
+  }
+  p{
+    margin-top: 5px;
+  }
+  
+.navigation .text-icon .nav-list li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navigation .text-icon .nav-list li{ 
+list-style: none;
+}
+
+.navigation{
+  display: flex;
+}
+.nav-list{
+  display: flex;
+  gap: 10px;
+} 
+.logo a img{
+
+  width: 50px;
+}
+.navigation{
+  border: solid;
+  padding-top:5px ;
+  background-color: var(--bg-color);
+}
+.icons-bf{
+  padding: 15px 5px;
+  color: var(--text-color);
+}
+  
+.icons-A{
+  padding: 15px 10px;
+  color: var(--text-color);
+  margin-left: 50px;
+  display: flex;
+}
+.x{
+  margin-left: 5px;
+}
+.x:hover{
+  background-color:var(--hover-colorTransparent) ;
+  
+}
+
+.minus{
+  margin-left: 5px;
+}
+.minus:hover{
+  background-color:var(--hover-colorTransparent) ;
+  
+}
+
+.down{
+margin-left: 10px;
+}
+
+.down:hover{
+  background-color:var(--hover-colorTransparent) ;
+}
+
+.arrow-left:hover{
+  background-color:var(--hover-colorTransparent) ;
+}
+
+.arrow-right:hover{
+  background-color:var(--hover-colorTransparent) ;
+}
+
+.dout:hover{
+  background-color:var(--hover-colorTransparent) ;
 }
