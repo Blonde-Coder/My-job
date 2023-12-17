@@ -20,7 +20,7 @@ dd {
 }
 
 :root{
-    --text-color:#524e4ef0;
+    --text-color:hsla(200, 24%, 80%, 0.313);
     --bg-color:rgb(4, 4, 28);
     --hover-color:rgb(88, 88, 91);
     --hover-colorTransparent:rgba(110, 110, 121, 0.351);
@@ -118,4 +118,23 @@ margin-left: 10px;
 
 .dout:hover{
   background-color:var(--hover-colorTransparent) ;
+}
+
+.container{
+  position:fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll{
+  height: 1000px;
+  color: aquamarine;
+  background-color: antiquewhite;
+}
+
+.scroll p{
+  width: 50%;
+  display: block;
+  float: left;
 }
